@@ -31,7 +31,7 @@ const reasons = [
 ];
 
 const reviews = [
-  { name: 'Алексей', car: 'Toyota Camry', text: 'Никита нашёл проблему, которую не увидели в трёх сервисах. Честно, быстро, по делу. Рекомендую!' },
+  { name: 'Алексей', car: 'Toyota Camry', text: 'Иван нашёл проблему, которую не увидели в трёх сервисах. Честно, быстро, по делу. Рекомендую!' },
   { name: 'Марина', car: 'Hyundai Solaris', text: 'Очень довольна. Объяснил всё простым языком, цена адекватная, машина едет как новая.' },
   { name: 'Дмитрий', car: 'Lada Vesta', text: 'Делал подвеску и тормоза. Всё в срок, с гарантией. Теперь только к нему.' },
 ];
@@ -149,15 +149,15 @@ const Index = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="relative">
             <div className="absolute -inset-3 bg-primary/20 blur-2xl rounded-3xl" />
-            <img src={PORTRAIT_IMG} alt="Никита Болдин" className="relative rounded-3xl w-full object-cover aspect-[4/5] border border-white/10" />
+            <img src={PORTRAIT_IMG} alt="Иван Иванов" className="relative rounded-3xl w-full object-cover aspect-[4/5] border border-white/10" />
             <div className="absolute bottom-6 left-6 glass-yellow rounded-2xl px-5 py-3">
-              <div className="font-oswald font-bold text-lg">Никита Болдин</div>
+              <div className="font-oswald font-bold text-lg">Иван Иванов</div>
               <div className="text-sm text-muted-foreground normal-case tracking-normal">Автомеханик · Ступино</div>
             </div>
           </div>
           <div>
             <span className="text-primary font-oswald uppercase tracking-widest text-sm">Обо мне</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-3 mb-6">Болдин Никита Андреевич</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mt-3 mb-6">Иванов Иван Иванович</h2>
             <p className="text-muted-foreground mb-4 font-golos normal-case tracking-normal leading-relaxed">
               Я — независимый автомеханик из Ступино. За плечами более 10 лет в ремонте автомобилей разных марок.
               Начинал помощником в крупном сервисе, а сегодня работаю на себя, чтобы давать клиентам честный сервис без посредников.
@@ -250,7 +250,7 @@ const Index = () => {
                 { icon: 'Phone', label: 'Телефон', value: '+7 000 000-00-00', href: 'tel:+70000000000' },
                 { icon: 'Send', label: 'Telegram', value: '@boldin_auto', href: '#' },
                 { icon: 'MessageCircle', label: 'WhatsApp', value: '+7 000 000-00-00', href: '#' },
-                { icon: 'MessagesSquare', label: 'MAX', value: 'Болдин Никита', href: '#' },
+                { icon: 'MessagesSquare', label: 'MAX', value: 'Иванов Иван', href: '#' },
               ].map((c) => (
                 <a key={c.label} href={c.href} className="flex items-center gap-4 glass rounded-2xl p-4 hover-lift">
                   <div className="w-11 h-11 rounded-xl glass-yellow flex items-center justify-center shrink-0">
@@ -284,7 +284,7 @@ const Index = () => {
             </div>
             <span className="font-oswald font-bold tracking-wide">БОЛДИН<span className="text-primary">.АВТО</span></span>
           </div>
-          <p className="text-sm text-muted-foreground font-golos normal-case tracking-normal">© 2026 Болдин Никита Андреевич · Ступино</p>
+          <p className="text-sm text-muted-foreground font-golos normal-case tracking-normal">© 2026 Иванов Иван Иванович · Ступино</p>
         </div>
       </footer>
     </div>
