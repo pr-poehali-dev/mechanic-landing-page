@@ -55,7 +55,7 @@ const Index = () => {
             <div className="w-9 h-9 rounded-xl bg-primary flex items-center justify-center">
               <Icon name="Wrench" className="text-primary-foreground" size={20} />
             </div>
-            <span className="font-oswald font-bold text-lg tracking-wide">БОЛДИН<span className="text-primary">.АВТО</span></span>
+            <span className="font-oswald font-bold text-lg tracking-wide">МАСТЕР<span className="text-primary">СКАЯ</span></span>
           </a>
           <nav className="hidden md:flex items-center gap-8">
             {navLinks.map((l) => (
@@ -282,7 +282,7 @@ const Index = () => {
             <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
               <Icon name="Wrench" className="text-primary-foreground" size={16} />
             </div>
-            <span className="font-oswald font-bold tracking-wide">БОЛДИН<span className="text-primary">.АВТО</span></span>
+            <span className="font-oswald font-bold tracking-wide">МАСТЕР<span className="text-primary">СКАЯ</span></span>
           </div>
           <p className="text-sm text-muted-foreground font-golos normal-case tracking-normal">© 2026 Иванов Иван Иванович · Ступино</p>
         </div>
